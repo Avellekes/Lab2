@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Варіант 1</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+            background-color: rgba(28, 92, 51, 0.951);
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: space-around;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="images\tea.jfif" alt="Tea" class="tea tea">
+        <h1 style="color: rgb(255, 255, 255);">World of Tea</h1>
+    </header>
+    <main class="content">
+        <section class="article-section">
+            <p>Чай - один із найпопулярніших напоїв у світі, і його різновидів існує безліч. Кожен вид чаю відрізняється не лише смаком та ароматом, але й корисними властивостями.</p>
+            <p>Розглянемо основні види чаю та їх особливості:</p>
+            <img src="images\black tea.jpg" alt="Tea" class="tea-image">
+            <p>Чорний чай - найпоширеніший і найміцніший вид чаю. Він проходить повну ферментацію, що надає йому насичений, глибокий смак та темний колір. Чорний чай має тонізуючі властивості завдяки вмісту кофеїну, і часто стає основою для таких сумішей, як англійський сніданок та Ерл Грей. Популярні сорти чорного чаю включають Ассам, Дарджилінг та Кімун.</p>
+            <img src="images\green tea.png" alt="Tea" class="tea-image">
+            <p>Зелений чай не піддається повній ферментації, що дозволяє зберегти його світло-зелений колір та свіжий, трав'янистий смак. Цей вид чаю багатий на антиоксиданти і вважається корисним для здоров'я: він зміцнює імунітет, покращує обмін речовин і допомагає боротися зі старінням. Серед відомих сортів зеленого чаю можна виділити Сенч, Матч і Ганпаудер.</p>
+            <img src="images\white tea.jpg" alt="Tea" class="tea-image">
+            <p>Білий чай - найбільш делікатний і ніжний вид чаю, який отримують з молодих бруньок і листя, що не піддається ферментації. Білий чай містить більше антиоксидантів і менше кофеїну, ніж чорний або зелений, що робить його м'яким та корисним для шкіри. До відомих сортів білого чаю відносяться Бай Хао Інь Чжень та Бай Мудань.</p>
+            <img src="images\ulun.jpg" alt="Tea" class="tea-image">
+            <p>Улун - це чай, який проходить часткову ферментацію, перебуваючи між зеленим та чорним чаєм. Улуни мають різноманітні смакові характеристики - від квіткових і фруктових до насичених, деревних нот. Улун вважається корисним для травлення та допомагає підтримувати баланс в організмі. Популярні улуни - це Тегуаньінь і Да Хун Пао.</p>
+            <img src="images\puer.jpg" alt="Tea" class="tea-image">
+            <p>Пуер - це ферментований і витриманий чай, який часто порівнюється з вином через його глибокий, складний смак і здатність покращуватися з часом. Пуер має темний колір і насичений земляний смак, який цінують любителі міцних напоїв. Його вважають корисним для травлення та зниження рівня холестерину.</p>
+            <img src="images\grass tea.jpg" alt="Tea" class="tea-image">
+            <p>Трав'яні чаї (іноді звані "трав'яні настої") насправді не містять чайного листа, а виготовляються з різних трав, квітів, фруктів та спецій. Популярні види трав'яних чаїв включають ромашковий, м'ятний та імбирний. Ці напої часто використовуються для покращення сну, заспокоєння та підтримки здоров'я.</p>
+            <img src="images\mattya.jpg" alt="Tea" class="tea-image">
+            <p>Маття - це порошкоподібний японський зелений чай, який роблять з листя тенча, попередньо висушених і подрібнених до стану порошку. Традиційно маттю збивають у гарячій воді спеціальним бамбуковим пензликом, створюючи густу, пінисту текстуру. Маття цінується за тонізуючий ефект, і широко використовується в японській кулінарії. </p>
+            <img src="images\ice tea.jfif" alt="Tea" class="tea-image">
+            <p>Холодний чай - це освіжаючий напій, який зазвичай готують на основі класичного чаю (чорного, зеленого або трав'яного), але подають охолодженим, іноді з льодом. Він став особливо популярним у теплу пору року завдяки своєму освіжаючому смаку та можливості легко комбінувати з різними добавками, такими як фрукти, ягоди, м'ята чи лимон.</p>
+        </section>
+
+        <section class="checkbox-section">
+            <h2>Виберіть свій вид чаю</h2>
+            <div class="container">
+                <label class="box box-1">
+                    <input type="checkbox" class="color-toggle">
+                    <div class="box-content">Чорний</div>
+                </label>
+                <label class="box box-2">
+                    <input type="checkbox" class="color-toggle">
+                    <div class="box-content">Зелений</div>
+                </label>
+                <label class="box">
+                    <input type="checkbox" class="color-toggle">
+                    <div class="box-content">Білий</div>
+                </label>
+                <label class="box">
+                    <input type="checkbox" class="color-toggle">
+                    <div class="box-content">Улун</div>
+                </label>
+                <label class="box">
+                    <input type="checkbox" class="color-toggle">
+                    <div class="box-content">Пуер</div>
+                </label>
+                <label class="box">
+                    <input type="checkbox" class="color-toggle">
+                    <div class="box-content">Трав'яний</div>
+                </label>
+                <label class="box">
+                    <input type="checkbox" class="color-toggle">
+                    <div class="box-content">Маття</div>
+                </label>
+                <label class="box">
+                    <input type="checkbox" class="color-toggle">
+                    <div class="box-content">Холодний</div>
+                </label>
+            </div>
+            <label class="box large-box">
+                <input type="checkbox" class="color-toggle">
+                <div class="box-content">Віддаю перевагу іншим напоям</div>
+            </label>
+        </section>
+    </main>
+
+    <footer class="footer">
+        &copy; 2024 Шевченко Андрій КІУКІу-23-1
+    </footer>
+
+</body>
+</html>
